@@ -1,0 +1,118 @@
+div {
+    display: block;
+}
+.contenitore-dettaglio {
+    width: 1150px;
+    height: 592px;
+    display: block;
+    margin: 24px auto;
+    background: burlywood;
+    border-radius: 3px;
+}
+
+.box-immagine {
+width: 40%;
+max-width: 40%;
+height: 592px;
+background: transparent;
+float: left;
+border-right: 1px solid black;
+}
+
+.box-resume {
+
+    width: 55.52%;
+    height: 100%;
+    max-width: 60%;
+    padding: 12px 32px ;
+    background:transparent;
+    float: left;
+    margin:0 24px;
+
+}
+.box-resume-2 p {
+
+    font-size: 18px;
+
+}
+
+
+.content-autore {
+  
+    width: 100%;
+    height: 90px;
+    padding-top: 14px;
+}
+
+.content-autore p {
+    font-size: 20px;
+    font-weight: 550;
+}
+
+.content-acquisti {
+    width: 100%;
+    height: 150px;
+
+}
+
+
+.content-acquisti p {
+	display:inline-block;
+	width: 80px;
+	font-size: 20px;
+}
+
+.box-descrizione {
+    width: 100%;
+    min-height: 250px; 
+    max-height: 500px;
+}
+
+.content-button-prenota {
+    text-align: center;
+    width: 560px;
+    margin: 0 auto;
+    padding-top: 20px;
+
+
+}
+.content-button-prenota button {
+    width: 100%;
+    height: 60px;
+    text-decoration: none;
+    border: none;
+    border-radius: 1px;
+    background: black;
+    color: white;
+}
+
+
+
+.box-immagine img {
+    width: 100%;
+    padding: 12px 24px;
+    height: 100%;
+}
+
+.box-resume-2 {
+    width: fit-content;
+    height: 100%;
+}
+
+.btn-dettaglio-buy {
+	width: 100%;
+	height:50px;
+	border: 1px solid black;
+	border-radius: 5px;
+	background:black;
+	color:white;
+}
+
+.sconto {
+	color: black;
+	text-decoration:line-through;
+}
+
+.linea-top {
+	margin-bottom: 20px;
+}
